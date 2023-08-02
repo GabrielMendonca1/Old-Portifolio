@@ -17,23 +17,23 @@ const Explore = () => {
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
+        viewport={{ once: false, amount: 0.30 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| The World" textStyles="text-center" />
+        <TypingText title="| Experiencia" textStyles="text-center" />
         <TitleText
-          title={<>Choose the world you want <br className="md:block hidden" /> to explore</>}
+          title={<>Escolha um mundo <br className="md:block hidden" /> para explorar</>}
           textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {exploreWorlds.map((world, index) => (
-            <ExploreCard
-              key={world.id}
-              {...world}
-              index={index}
-              active={active}
-              handleClick={setActive}
-            />
+        {exploreWorlds.map((world, index) => (
+          <ExploreCard
+          key={world.id}
+          {...world}
+          index={index}
+          active={active}
+          handleClick={setActive}
+          />
           ))}
         </div>
       </motion.div>

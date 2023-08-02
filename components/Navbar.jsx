@@ -32,7 +32,7 @@ const Navbar = () => (
       
      
       <h2 className="font-extrabold text-[24px] leading-[30px] text-white">
-        GABRIEL R MENDONCA
+      Soft. Engineer Brazil EN/PT
       </h2>
 
       
