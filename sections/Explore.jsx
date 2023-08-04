@@ -16,7 +16,7 @@ const Explore = () => {
       <motion.div
         variants={staggerContainer}
         initial="hidden"
-        whileInView="show"
+        animate="show"
         viewport={{ once: false, amount: 0.30 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >

@@ -26,6 +26,8 @@ const Hero = () => (
           <div className={styles.heroDText} />
           <h1 className={styles.heroHeading}>onça</h1>
         </motion.div>
+
+        
       </div>
 
       <motion.div
