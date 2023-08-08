@@ -37,23 +37,21 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Python, a linguagem que está moldando o futuro da tecnologia.',
+  'A próxima revolução industrial com os Modelos de Linguagem de Aprendizado de Máquina (LLM).  ',
+  'Não é apenas uma tendência, é o futuro. Abraçar o Python significa abraçar a inovação.',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
-    subtitle:
-        'we have the latest update with new world for you to try never mind',
+    title: 'Uma nova Fronteira',
+    subtitle: 'nos próximos anos, o setor de software enfrentará mudanças radicais graças a tecnologias de capacidade exponencial, como os LLM.',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
-    subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+    title: 'Uma nova perspectiva',
+    subtitle: 'Com os avanços tecnológicos, as barreiras estão desaparecendo, unindo o mundo de maneiras mais realistas e acessíveis do que nunca.',
   },
 ];
 
@@ -82,17 +80,21 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
+    link: 'https://twitter.com/seu_perfil',
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
+    link: 'https://twitter.com/seu_perfil',
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
+    link: 'https://twitter.com/seu_perfil',
   },
   {
     name: 'facebook',
     url: '/facebook.svg',
+    link: 'https://twitter.com/seu_perfil',
   },
 ];
