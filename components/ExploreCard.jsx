@@ -5,7 +5,16 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { fadeIn } from '../utils/motion';
 
-const ExploreCard = ({ id, imgUrl, title, index, active, handleClick, text, icon }) => (
+const ExploreCard = ({
+  id,
+  imgUrl,
+  title,
+  index,
+  active,
+  handleClick,
+  text,
+  icon,
+}) => (
   <motion.div
     variants={fadeIn('right', 'spring', index * 0.5, 0.575)}
     className={`relative ${
@@ -24,10 +33,15 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick, text, icon
       </h3>
     ) : (
       <div className="absolute bottom-0 p-6 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px] rounded-t-[24px]er">
-        <div className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}>
+        <div
+          className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
+        >
           <img src={icon} alt="icon" className="w-2/3 h-2/3 object-contain" />
         </div>
-        <p className="font-normal text-[16px] leading-[24px] text-white " style={{padding: "0 10px", lineHeight: "1.6"}}>
+        <p
+          className="font-normal text-[16px] leading-[24px] text-white "
+          style={{ padding: '0 10px', lineHeight: '1.6' }}
+        >
           {text}
         </p>
         <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">

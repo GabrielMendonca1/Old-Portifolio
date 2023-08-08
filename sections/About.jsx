@@ -22,8 +22,15 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-      Nasci em Salvador, <span className="font-extrabold text-white">apaixonado</span> por tecnologia desde jovem. Aos 17, mergulhei na programação, Aprendendo várias linguagens. Minha paixão é explorar as possibilidades ilimitadas que a tecnologia proporciona, sempre com o objetivo de <span className="font-extrabold text-white">criar o futuro</span>. Convido você a <span className="font-extrabold text-white">explorar</span> mais sobre minha experiência.
-
+        Nasci em Salvador,{' '}
+        <span className="font-extrabold text-white">apaixonado</span> por
+        tecnologia desde jovem. Aos 17, mergulhei na programação, Aprendendo
+        várias linguagens. Minha paixão é explorar as possibilidades ilimitadas
+        que a tecnologia proporciona, sempre com o objetivo de{' '}
+        <span className="font-extrabold text-white">criar o futuro</span>.
+        Convido você a{' '}
+        <span className="font-extrabold text-white">explorar</span> mais sobre
+        minha experiência.
       </motion.p>
 
       <motion.img
