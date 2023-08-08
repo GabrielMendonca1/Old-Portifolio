@@ -80,12 +80,12 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
-    link: 'https://twitter.com/seu_perfil',
+    link: 'https://twitter.com/GabrielRMendon1',
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
-    link: 'https://twitter.com/seu_perfil',
+    link: 'https://www.linkedin.com/in/gabriel-ribeiro-mendon%C3%A7a-910692269/',
   },
   {
     name: 'instagram',
@@ -95,6 +95,6 @@ export const socials = [
   {
     name: 'facebook',
     url: '/facebook.svg',
-    link: 'https://twitter.com/seu_perfil',
+    link: 'https://github.com/GabrielMendonca1',
   },
 ];

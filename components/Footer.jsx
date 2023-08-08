@@ -19,9 +19,10 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Vamos conectar!
         </h4>
+        <a href="https://bento.me/gabriel-mendonca" target="_blank" rel="noopener noreferrer">
         <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
           <img
-            src="/headset.svg"
+            src="/contato.svg"
             alt="headset"
             className="w-[24px] h-[24px] object-contain"
           />
@@ -29,6 +30,7 @@ const Footer = () => (
             Entre em contato
           </span>
         </button>
+        </a>
       </div>
 
       <div className="flex flex-col">
