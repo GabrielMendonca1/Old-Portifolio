@@ -9,7 +9,7 @@ import {
 } from '../sections';
 
 const Page = () => (
-  <div className="bg-primary-black overflow-hidden ">
+  <div className="bg-primary-black overflow-hidden overflow-x-hidden ">
     <Navbar />
     <Hero />
     <div className="relative">
@@ -23,7 +23,6 @@ const Page = () => (
       <WhatsNew />
     </div>
     <div>
-      <div className="gradient-04 z-0" />
       <Feedback />
     </div>
     <Footer />
