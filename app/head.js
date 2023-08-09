@@ -1,8 +1,8 @@
 const Head = () => (
   <>
-    <title>GM</title>
+    <title>Bem-vindo !</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="/favicon.png" />
   </>
 );
 
