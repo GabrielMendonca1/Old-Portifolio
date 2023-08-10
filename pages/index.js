@@ -13,7 +13,7 @@ const Page = () => {
     <div className="bg-primary-black overflow-hidden overflow-x-hidden">
       {loading ? (
         <div className="fixed top-0 left-0 z-50 w-full h-full bg-primary-black flex items-center justify-center">
-          <div className="loader"></div>
+          <div className="loader" />
         </div>
       ) : null}
       <Navbar />
