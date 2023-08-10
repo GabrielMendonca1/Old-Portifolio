@@ -1,6 +1,13 @@
 import { useState, useEffect } from 'react';
 import { Footer, Navbar } from '../components';
-import { About, Explore, Feedback, GetStarted, Hero, WhatsNew } from '../sections';
+import {
+  About,
+  Explore,
+  Feedback,
+  GetStarted,
+  Hero,
+  WhatsNew,
+} from '../sections';
 
 const Page = () => {
   const [loading, setLoading] = useState(true);
@@ -35,6 +42,5 @@ const Page = () => {
     </div>
   );
 };
-
 
 export default Page;

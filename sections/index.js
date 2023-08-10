@@ -5,11 +5,4 @@ import GetStarted from './GetStarted';
 import WhatsNew from './WhatsNew';
 import Feedback from './Feedback';
 
-export {
-  Hero,
-  About,
-  Explore,
-  GetStarted,
-  WhatsNew,
-  Feedback,
-};
+export { Hero, About, Explore, GetStarted, WhatsNew, Feedback };
